@@ -1,0 +1,8 @@
+[phases.build]
+cmds = ["npm run generate"]
+
+[phases.start]
+cmds = ["npx serve .output/public -p 3000"]
+
+[phases.install]
+cmds = ["npm install --legacy-peer-deps"]
